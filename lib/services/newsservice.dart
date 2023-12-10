@@ -1,6 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:newsapp/services/articalmodel.dart';
-
+String country='us';
+set changeCountry(String c){
+    country=c;
+}
 class NewsService {
   final Dio dio;
 
@@ -9,7 +12,7 @@ class NewsService {
   Future<List<ArticleModel>> getTopHeadlines({required String category}) async {
     try {
       var response = await dio.get(
-          'https://newsapi.org/v2/top-headlines?country=us&apiKey=b1ecd97601df4044ac18b0eb3f09be0c&category=$category');
+          'https://newsapi.org/v2/top-headlines?country=$country&apiKey=b1ecd97601df4044ac18b0eb3f09be0c&category=$category');
 
       Map<String, dynamic> jsonData = response.data;
 

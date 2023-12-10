@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:newsapp/veiws/change_contry.dart';
 import 'package:newsapp/widget/categorieslistveiw.dart';
 import 'package:newsapp/widget/newslistviewbuilder.dart';
 
-
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
-
+  static String id = 'HomeView';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,29 +17,32 @@ class HomeView extends StatelessWidget {
           children: [
             Text(
               '  My',
-              style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),
+              style:
+                  TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
             ),
             Text(
               'News',
-              style: TextStyle(color: Colors.orange,fontWeight: FontWeight.bold),
+              style:
+                  TextStyle(color: Colors.orange, fontWeight: FontWeight.bold),
             ),
             Icon(Icons.newspaper_sharp),
           ],
-          
         ),
-         actions: [
-            IconButton(
-              icon: const Icon(Icons.language_outlined,size: 30,),
-              onPressed: () {
-                // Add your action here
-              },
+        actions: [
+          IconButton(
+            icon: const Icon(
+              Icons.language_outlined,
+              size: 30,
             ),
-            const Text("    "),
-          ],
+            onPressed: () {
+               Navigator.pushNamed(context, FlagPage.id); // Add your action here
+            },
+          ),
+          const Text("    "),
+        ],
       ),
       body: const Padding(
         padding: EdgeInsets.symmetric(horizontal: 16),
-
         child: CustomScrollView(
           physics: BouncingScrollPhysics(),
           slivers: [
@@ -54,7 +57,6 @@ class HomeView extends StatelessWidget {
             ),
           ],
         ),
-       
       ),
     );
   }

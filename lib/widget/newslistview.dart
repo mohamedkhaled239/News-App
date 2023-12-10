@@ -5,7 +5,7 @@ import 'package:newsapp/widget/newtile.dart';
 
 class NewsListView extends StatelessWidget {
   final List<ArticleModel> articles;
-
+  static String id = 'NewsListView';
   const NewsListView({super.key, required this.articles});
 
   @override
