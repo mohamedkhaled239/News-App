@@ -3,4 +3,6 @@
 A new Flutter project.
 
 ## Screen Shot
-![image](https://user-images.githubusercontent.com/16319829/79087218-ef769280-7d81-11ea-93d6-a81ea2a7474e.png | width=100)
+![1](https://github.com/mohamedkhaled239/News-App/assets/13951727/3a447fa1-cdd5-4866-a5a4-71336d50642a)
+
+![image](https://github.com/mohamedkhaled239/News-App/assets/13951727/3a447fa1-cdd5-4866-a5a4-71336d50642a.png|width=100)
