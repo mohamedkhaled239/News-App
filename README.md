@@ -3,8 +3,8 @@
 A new Flutter project.
 
 ## Screen Shot
-![1](https://github.com/mohamedkhaled239/News-App/assets/13951727/c27b4e1d-569f-4e54-b0ed-92d23aa3e350 = 250x250)
-![2](https://github.com/mohamedkhaled239/News-App/assets/13951727/33621b4c-0629-4118-a630-a0fd18eb0ba8 = 250x250)
+![1]<img src=https://github.com/mohamedkhaled239/News-App/assets/13951727/c27b4e1d-569f-4e54-b0ed-92d23aa3e350" width="48">
+![2]<img src=https://github.com/mohamedkhaled239/News-App/assets/13951727/33621b4c-0629-4118-a630-a0fd18eb0ba8" width="48">
 
 ![3](https://github.com/mohamedkhaled239/News-App/assets/13951727/529fd209-b7ce-4bec-b54a-c88597dacae2 = 250x250) 
 ![4](https://github.com/mohamedkhaled239/News-App/assets/13951727/097d5318-ec8b-4857-bc96-ab87cb8cb16c = 250x250)
